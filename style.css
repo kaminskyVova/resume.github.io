@@ -1,0 +1,186 @@
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-bottom: 70px;
+}
+
+.header_contacts {
+    padding-top: 42px;
+}
+
+.header_contacts_git {
+    text-decoration: none;
+}
+
+.header_info {
+    width: 500px;
+    margin-right: 70px;
+}
+
+.header_info_name {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.header_info_text {
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 595px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+.summary {
+    border-bottom: 1px solid gray;
+    margin-bottom: 60px;
+}
+
+.summary_title {
+    margin-bottom: 40px;
+}
+
+.summary_first {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.summary_second {
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+
+
+.employment {
+    border-bottom: 1px solid gray;
+}
+
+
+.employment_title {
+    margin-bottom: 38px;
+}
+
+.employment_liga {
+    font-size: 20px;
+}
+
+.employment_liga_link {
+    margin-bottom: 0;
+}
+.employment_liga_link-data {
+    margin-top: 0;
+}
+
+.employment_liga_text {
+    margin-bottom: 45px;
+}
+
+
+.skills {
+    margin-top: 75px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.skills_content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.skills_info {
+    width: 25%;
+    font-size: 20px;
+}
+
+.skills_info_text_item {
+    margin-bottom: 5px;
+}
+
+
+
+
+.education {
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 35px;
+}
+
+.education_info_text {
+    list-style: none;
+}
+
+.education_info_text_item {
+    margin-bottom: 40px;
+}
+
+.education_info_text_item > a {
+    text-decoration: none;
+}
+
+.education_info_text_item-text {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+
+
+.qualities {
+    font-size: 20px;
+    margin-top: 70px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 55px;
+}
+
+.qualities_info_text_item {
+    margin-bottom: 5px;
+}
+
+
+.languages {
+    font-size: 20px;
+    margin-top: 70px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid gray;
+}
+
+.languages_info_text_item {
+    margin-bottom: 5px;
+}
+
+
+.projects {
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.projects_info_text_item > a,
+.projects > a {
+    text-decoration: none;
+}
+
+.projects_info_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dop_info {
+    margin-top: -17px;
+}
+
+.projects_info_text_item {
+    width: 50%;
+}
